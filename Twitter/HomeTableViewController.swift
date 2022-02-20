@@ -57,12 +57,14 @@ class HomeTableViewController: UITableViewController {
         return cell
     }
     
-    
+    /*override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.loadTweet()
+    }*/
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadTweet()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
