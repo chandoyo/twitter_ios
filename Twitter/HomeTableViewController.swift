@@ -61,10 +61,10 @@ class HomeTableViewController: UITableViewController {
         return cell
     }
     
-    /*override func viewDidAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.loadTweet()
-    }*/
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
