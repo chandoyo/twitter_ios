@@ -25,7 +25,7 @@ class   TweetCellTableViewCell: UITableViewCell {
     
     
     @IBAction func favoriteTweet(_ sender: Any) {
-        let t obeFavorited = !favorited
+        let tobeFavorited = !favorited
         if (tobeFavorited) {
             TwitterAPICaller.client?.favoriteTweet(tweetId: tweetId, success: {
                 self.setFavorite(true)
